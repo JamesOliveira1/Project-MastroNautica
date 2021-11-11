@@ -55,7 +55,7 @@ header {
 .top:hover{    
     text-decoration: none;
     border-radius: 3px 0 0 3px;
-    background-color: rgb(0, 255, 157, 0.7);
+    background-color:  rgba(0, 255, 157, 0.7);
 }
 
 /* MENU /////////////////////// */
@@ -106,9 +106,9 @@ header {
 }
 
 #idioma{
-    height: 50px;
+    height: 40px;
     width: auto;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 /* PRINCIPAL /////////////////////// */
@@ -309,7 +309,7 @@ header {
   
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgb(0, 255, 157, 0.7);
+    background-color:  rgba(0, 255, 157, 0.7);
 }
   
 /* The dots/bullets/indicators */
@@ -318,7 +318,7 @@ header {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: rgb(0, 255, 157, 0.7);
+    background-color:  rgba(0, 255, 157, 0.7);
     opacity: 0.5;
     border-radius: 50%;
     display: inline-block;
@@ -367,7 +367,7 @@ header {
 }
 .section-description--right img{
     width:480px;
-    box-shadow: 0px 6px 10px rgb(2, 12, 44);
+    box-shadow: 3px 3px 10px rgb(0, 255, 157);
 }
 .section-description p{
     font-size: 14px;
@@ -462,30 +462,11 @@ header {
     width: 280px;
 }
 
-.section-projects--photoarea {
+.section-projects--photo img {
     margin:10px;
     width:260px;
     height:160px;
-}
-
-.section-projects--photoarea img {
-    width:inherit;
-    height:inherit;
-}
-
-.section-projects--photoinfo {
-    position:absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    width:inherit;
-    height:inherit;
-    display: none;
-    justify-content:center;
-    align-items:center;
-    color:rgb(0, 255, 157);
-}
-
-.section-projects--photoarea:hover .section-projects--photoinfo{
-    display: flex;
+    box-shadow: 3px 3px 10px rgb(0, 255, 157);
 }
 
 .slideshow-container {
@@ -513,7 +494,7 @@ header {
 }
 
 #desempenho img{
-    width:auto;
+    width: 520px;
     margin-top: 50px;
     display: block;
     margin-left: auto;
@@ -598,7 +579,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 6px 10px rgb(0, 255, 157);
+    box-shadow: 3px 3px 10px rgb(0, 255, 157);
     margin-top:20px;
     margin-bottom: 30px;
 }
@@ -695,25 +676,29 @@ header {
 /* Position the "next button" to the right */
 .prev2 {
     left: 10%;
-    top:20%;
+    top:15%;
     border-radius: 3px 0 0 3px;
 }
 
 .next2 {
     left: 10%;
-    top:50%;
+    top:45%;
     border-radius: 0 3px 3px 0;
 }
   
 /* On hover, add a black background color with a little bit see-through */
 .prev2:hover, .next2:hover {
-    background-color: rgb(0, 255, 157, 0.7);
+    background-color:  rgba(0, 255, 157, 0.7);
 }
 
 .slidearea2 p{
-    color:rgb(0, 255, 157);
     font-size: 18px;
     margin-top: 10px;
+}
+
+.slidearea2 h1{
+    color:rgb(0, 255, 157);    
+    font-size: 24px;
 }
 
 .slidearea2 h1{
@@ -953,7 +938,7 @@ nav {
     z-index:99;
     top:100px;
     right:0;
-    background-color: rgb(0, 255, 157, 0.7);
+    background-color:  rgba(0, 255, 157, 0.7);
     height: calc(100vh - 100px);    
     transition: all 0.5s ease;
 }
@@ -999,6 +984,10 @@ nav {
 
 .section-description{
     flex-direction: column;
+}
+
+.section-description p:first-child {
+    margin-top: 0px;
 }
 
 .section-description--left{
@@ -1158,7 +1147,7 @@ nav {
         z-index:99;
         top:100px;
         right:0;
-        background-color: rgb(0, 255, 157, 0.7);
+        background-color:  rgba(0, 255, 157, 0.7);
         height: calc(100vh - 100px);
         transition: all 0.5s ease-in-out;
     }
@@ -1230,6 +1219,10 @@ nav {
         padding-left: 30px;
     }
 
+    .section-description p:first-child {
+        margin-top: 0px;
+    }
+    
     .section-description--right img{
         width:100%;
     }

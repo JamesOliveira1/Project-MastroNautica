@@ -75,3 +75,10 @@ function showSlides2(n) {
   document.addEventListener("DOMContentLoaded", function() {
     showSlides2(1);
   });
+
+  ////////////////////////////////////////////////
+
+window.addEventListener('load', function () {
+  var el = document.querySelectorAll('img.lightense');
+  Lightense(el);
+}, false);

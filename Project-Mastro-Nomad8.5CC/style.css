@@ -106,19 +106,18 @@ header {
 }
 
 #idioma{
-    height: 50px;
+    height: 40px;
     width: auto;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 /* PRINCIPAL /////////////////////// */
 
 .banner {
     background-color:rgb(184, 184, 184);
-    background-image:url('./images/complementos/bg.jpg');
     height:calc(100vh - 100px);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     overflow: hidden;
 }
 
@@ -313,26 +312,6 @@ header {
     background-color: rgba(255, 166, 0, 0.7);
 }
   
-/* Caption text */
-.text {
-    color: white;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-  
-/* Number text (1/3 etc) */
-.numbertext {
-    color: white;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-  
 /* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
@@ -388,11 +367,15 @@ header {
 }
 .section-description--right img{
     width:480px;
-    box-shadow: 0px 6px 10px black;
+    box-shadow: 3px 3px 10px orange;
 }
 .section-description p{
     font-size: 14px;
     line-height:25px;
+    
+}
+.section-description p:first-child{
+    margin-top: 30px;
 }
 
 .section-dados {
@@ -479,30 +462,11 @@ header {
     width: 280px;
 }
 
-.section-projects--photoarea {
+.section-projects--photo img {
     margin:10px;
     width:260px;
     height:160px;
-}
-
-.section-projects--photoarea img {
-    width:inherit;
-    height:inherit;
-}
-
-.section-projects--photoinfo {
-    position:absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    width:inherit;
-    height:inherit;
-    display: none;
-    justify-content:center;
-    align-items:center;
-    color:orange;
-}
-
-.section-projects--photoarea:hover .section-projects--photoinfo{
-    display: flex;
+    box-shadow: 3px 3px 10px orange;
 }
 
 .slideshow-container {
@@ -530,7 +494,7 @@ header {
 }
 
 #desempenho img{
-    width:auto;
+    width: 520px;
     margin-top: 50px;
     display: block;
     margin-left: auto;
@@ -615,7 +579,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 6px 10px rgb(184, 184, 184);
+    box-shadow: 3px 3px 10px orange;
     margin-top:20px;
     margin-bottom: 30px;
 }
@@ -643,6 +607,102 @@ header {
     object-position: center;
     width:600px;
     height:400px;
+}
+
+/* SLIDER 2 /////////////////////// */
+/* Slideshow container */
+#pesca {    
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height:450px;    
+    padding-top:0px;
+}
+
+#pesca .section-title{
+    padding-top:50px;
+}
+
+.opac{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    overflow: hidden;
+    height:450px;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+}
+
+.slideshow-container2 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    display:flex;
+}
+
+.section-pesca--left{
+    flex: 1;
+    margin-top: 50px;
+    min-height: 200px;
+}
+
+.section-pesca--right{
+    flex: 5;
+    text-align: justify;
+    padding-left: 15px;
+}
+  
+/* Hide the images by default */
+  .mySlides2 {
+    display: none;
+}
+  
+/* Next & previous buttons */
+.prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+    transform: rotate(90deg);
+}
+  
+/* Position the "next button" to the right */
+.prev2 {
+    left: 10%;
+    top:15%;
+    border-radius: 3px 0 0 3px;
+}
+
+.next2 {
+    left: 10%;
+    top:45%;
+    border-radius: 0 3px 3px 0;
+}
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev2:hover, .next2:hover {
+    background-color: rgba(255, 166, 0, 0.7);
+}
+
+.slidearea2 p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.slidearea2 h1{
+    color:orange;    
+    font-size: 24px;
+}
+
+.slidearea2 h1{
+    margin-top: 30px;
 }
 
 .section-contactus{
@@ -926,6 +986,10 @@ nav {
     flex-direction: column;
 }
 
+.section-description p:first-child {
+    margin-top: 0px;
+}
+
 .section-description--left{
     display: flex;
     align-items:center;
@@ -966,6 +1030,27 @@ nav {
     width:280px;
     margin-top: 40px;
 }
+
+
+.section-pesca--right{
+    margin-right: 40px;
+    margin-left: 30px;
+    padding-left: 0px;
+}
+
+#pesca{
+    background-position: left;
+}
+
+.prev2{
+    left:7%;
+}
+
+.next2{
+    left:7%;
+}
+
+
 .section-map--info{
     width:auto;
 }
@@ -1127,6 +1212,10 @@ nav {
         width:80px;
         height:auto;        
     }
+
+    .section-description p:first-child {
+        margin-top: 0px;
+    }
     
     .section-description--right{
         width:auto;
@@ -1185,6 +1274,10 @@ nav {
         display:block;
     }
 
+    .section-inovation h1{
+        padding-top: 20px;
+    }
+
     .section-inovation--right{
         margin-right: 30px;
         margin-left: 10px;
@@ -1192,7 +1285,34 @@ nav {
 
     .section-inovation--left img{
         width:230px;
-        margin-top: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-pesca--right{
+        margin-right: 30px;
+        margin-left: 30px;
+        padding-left: 0px;
+    }
+    
+    #pesca{
+        background-position: left;
+    }
+
+    .prev2{
+        left:5%;
+    }
+
+    .next2{
+        left:5%;
+    }
+    .section-pesca--right h1{
+        margin-top:0px;
+        text-align: left;
+    }
+
+    .section-pesca--right p{
+        font-size: 14px;
     }
 
     .section-map--info{

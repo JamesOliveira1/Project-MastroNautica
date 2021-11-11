@@ -106,9 +106,9 @@ header {
 }
 
 #idioma{
-    height: 50px;
+    height: 40px;
     width: auto;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 /* PRINCIPAL /////////////////////// */
@@ -367,7 +367,7 @@ header {
 }
 .section-description--right img{
     width:480px;
-    box-shadow: 0px 6px 10px rgb(2, 12, 44);
+    box-shadow: 3px 3px 10px rgb(252, 0, 42);
 }
 .section-description p{
     font-size: 14px;
@@ -466,6 +466,7 @@ header {
     margin:10px;
     width:260px;
     height:160px;
+    box-shadow: 3px 3px 10px rgb(252, 0, 42);
 }
 
 .slideshow-container {
@@ -493,7 +494,7 @@ header {
 }
 
 #desempenho img{
-    width:auto;
+    width: 520px;
     margin-top: 50px;
     display: block;
     margin-left: auto;
@@ -578,7 +579,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 6px 10px rgb(252, 0, 42);
+    box-shadow: 3px 3px 10px rgb(252, 0, 42);
     margin-top:20px;
     margin-bottom: 30px;
 }
@@ -985,6 +986,10 @@ nav {
     flex-direction: column;
 }
 
+.section-description p:first-child {
+    margin-top: 0px;
+}
+
 .section-description--left{
     display: flex;
     align-items:center;
@@ -1212,6 +1217,10 @@ nav {
         width:auto;
         padding-right:30px;
         padding-left: 30px;
+    }
+
+    .section-description p:first-child {
+        margin-top: 0px;
     }
 
     .section-description--right img{
