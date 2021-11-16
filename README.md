@@ -1,21 +1,17 @@
 # Single pages de produtos
 
-> mastrodascia.com.br/nomad85cc
-> mastrodascia.com.br/nomad85xf
-> mastrodascia.com.br/titan
+> <p> [www.mastrodascia.com.br/nomad85cc](mastrodascia.com.br/nomad85cc) </p><br>
+> <p>[www.mastrodascia.com.br/nomad85xf](mastrodascia.com.br/nomad85xf)</p><br>
+> <p> [www.mastrodascia.com.br/titan](mastrodascia.com.br/titan)</p><br>
 
 ## Imagens
 
   <p>    
-  <img src="Shared/01.png" width="600" alt="preview">
+  <img src="Shared/01.png" width="300" alt="preview">
   </p>
 
   <p>    
   <img src="Shared/02.png" width="600" alt="preview">
-  </p>
-
- <p>    
-  <img src="Shared/03.png" width="600" alt="preview">
   </p>
 
 ## Resumo
@@ -35,7 +31,7 @@ Página para produtos, responsiva, em inglês e português, para campanha de ven
 
 ## 
 
-[https://github.com/JamesOliveira1](https://github.com/JamesOliveira1/)
+[https://github.com/JamesOliveira1c(https://github.com/JamesOliveira1/)
 
 
 
