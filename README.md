@@ -1,8 +1,8 @@
 # Single pages de produtos
 
-> <p> [www.mastrodascia.com.br/nomad85cc](mastrodascia.com.br/nomad85cc) </p><br>
-> <p>[www.mastrodascia.com.br/nomad85xf](mastrodascia.com.br/nomad85xf)</p><br>
-> <p> [www.mastrodascia.com.br/titan](mastrodascia.com.br/titan)</p><br>
+> [www.mastrodascia.com.br/nomad85cc](mastrodascia.com.br/nomad85cc)<br>
+> [www.mastrodascia.com.br/nomad85xf](mastrodascia.com.br/nomad85xf)<br>
+> [www.mastrodascia.com.br/titan](mastrodascia.com.br/titan)<br>
 
 ## Imagens
 
