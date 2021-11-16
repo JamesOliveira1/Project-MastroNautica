@@ -1,8 +1,8 @@
 # Single pages de produtos
 
-> <p> [www.mastrodascia.com.br/nomad85cc](mastrodascia.com.br/nomad85cc) </p><br>
-> <p>[www.mastrodascia.com.br/nomad85xf](mastrodascia.com.br/nomad85xf)</p><br>
-> <p> [www.mastrodascia.com.br/titan](mastrodascia.com.br/titan)</p><br>
+> <a href="www.mastrodascia.com.br/nomad85cc">mastrodascia.com.br/nomad85cc</a><br>
+> <a href="www.mastrodascia.com.br/nomad85xf">mastrodascia.com.br/nomad85xf</a><br>
+> <a href="www.mastrodascia.com.br/titan">mastrodascia.com.br/titan</a><br>
 
 ## Imagens
 
@@ -31,7 +31,7 @@ Página para produtos, responsiva, em inglês e português, para campanha de ven
 
 ## 
 
-[https://github.com/JamesOliveira1c(https://github.com/JamesOliveira1/)
+[https://github.com/JamesOliveira1](https://github.com/JamesOliveira1/)
 
 
 
