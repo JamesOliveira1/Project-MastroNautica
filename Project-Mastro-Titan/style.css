@@ -466,6 +466,7 @@ header {
     margin:10px;
     width:260px;
     height:160px;
+    object-fit: cover;
     box-shadow: 3px 3px 10px rgb(252, 0, 42);
 }
 
