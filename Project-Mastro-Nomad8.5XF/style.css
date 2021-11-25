@@ -464,9 +464,10 @@ header {
 
 .section-projects--photo img {
     margin:10px;
-    width:260px;
-    height:160px;
-    object-fit: cover;
+    max-width:260px;    
+    max-height: 190px;
+    height:auto;
+    object-fit: contain;
     box-shadow: 3px 3px 10px rgb(0, 255, 157);
 }    
 
