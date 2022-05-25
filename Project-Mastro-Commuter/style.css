@@ -562,6 +562,12 @@ header {
     text-align: center;
 }
 
+.asterisco{
+    margin-top:30px;
+    text-align: right;
+    color:rgb(184, 184, 184);
+}
+
 .section-inovation {
     display: flex;
 }
