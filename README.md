@@ -1,8 +1,11 @@
 # Single pages de produtos
 
-> <a href="www.mastrodascia.com.br/nomad85cc">mastrodascia.com.br/nomad85cc</a><br>
-> <a href="www.mastrodascia.com.br/nomad85xf">mastrodascia.com.br/nomad85xf</a><br>
-> <a href="http://www.mastrodascia.com.br/titan">mastrodascia.com.br/titan</a><br>
+> <a  target="_blank" href="http://www.mastrodascia.com.br/nomad7cc">mastrodascia.com.br/nomad7cc</a><br>
+> <a  target="_blank" href="http://www.mastrodascia.com.br/nomad85cc">mastrodascia.com.br/nomad85cc</a><br>
+> <a  target="_blank" href="http://www.mastrodascia.com.br/nomad85xf">mastrodascia.com.br/nomad85xf</a><br>
+> <a  target="_blank" href="http://www.mastrodascia.com.br/titan">mastrodascia.com.br/titan</a><br>
+> <a  target="_blank" href="http://www.mastrodascia.com.br/titancc">mastrodascia.com.br/titanCC</a><br>
+> <a  target="_blank" href="http://www.mastrodascia.com.br/commuter">mastrodascia.com.br/commuter</a><br>
 
 ## Imagens
 
