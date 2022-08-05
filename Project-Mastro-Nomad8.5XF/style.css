@@ -372,6 +372,8 @@ header {
 .section-description p{
     font-size: 14px;
     line-height:25px;
+    margin-left: 10px;        
+    color: rgb(184, 184, 184);
     
 }
 .section-description p:first-child{
@@ -397,13 +399,47 @@ header {
     margin-top:20px;
     text-transform: uppercase;
     font-size: 18px;
-    
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(2, 12, 44, 0.5);    
 }
 
 .section-dado p{
     margin-top:10px;
+    color: rgb(2, 12, 44);
+    font-size: 18px;
+    font-weight: bold;
+}
+    
+
+#texto3d{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#frame3d{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#frame3d iframe{
+    width: 90vw;
+    max-width: 1140px;
+    height: 600px;
+}
+
+#tour{
+    margin-top: 25px;
     color: rgb(0, 255, 157);
-    font-size: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 40px;
+
 }
 
 .section-projects {
@@ -829,6 +865,15 @@ header {
     margin-right: 15px;
 }
 
+#mapalink{
+    display:block;
+    position:absolute;
+    right:1vw;
+    margin-top: 50px;
+    width: 49%;
+    height: 150px;
+}
+
 .section-map--info-item-img img{
     width:15px;
     height: auto; 
@@ -934,6 +979,7 @@ header {
 
 @media (min-width: 450px) and (max-width:900px){
 
+
 nav {
     position: absolute;
     width: 50vw;
@@ -1001,6 +1047,19 @@ nav {
     margin-bottom: 30px;
 }
 
+.section-description--right {
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-description p{
+    margin-left: 10px;
+    padding-left:10px;
+}
+
 .section-dados{
     flex-wrap: wrap;
 }
@@ -1013,6 +1072,29 @@ nav {
 
 .section-dado:first-child{
     border-left:0;
+}
+
+#tour{
+    margin-bottom: 10px;
+}
+    
+.section-dado h4{
+    max-width:200px;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#frame3d{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#frame3d iframe{
+    width: 90vw;
+    height: 500px;
 }
 
 .section-fatos{
@@ -1064,6 +1146,15 @@ nav {
 
 .section-map--area{
     width:auto;
+}
+
+#mapalink{
+    display:block;
+    position:absolute;
+    right:1vw;
+    margin-top: 50px;
+    width: 49%;
+    height: 150px;
 }
 
 .section-contactus{
@@ -1259,6 +1350,33 @@ nav {
         flex-wrap: wrap;
     }
 
+    .section-fatos h1{
+        font-size: 38px;
+    }
+
+    #tour{
+        margin-bottom: 10px;
+    }
+
+    .section-dado h4{
+        max-width:200px;
+        align-items:center;
+        justify-content:center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #frame3d{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    #frame3d iframe{
+        width: 90vw;
+        height: 500px;
+    }
+
     .slideshow-container h1{
         font-size: 20px;
     }
@@ -1352,9 +1470,19 @@ nav {
 
     .section-map{
         padding:0;
-        background-position:60% 30%;
-        background-size:cover;
+        background-position:65% 100%;
+        background-size:auto;
         padding-top: 250px;
+    }
+
+    #mapalink{
+        display:block;
+        position:absolute;
+        right:1vw;
+        left:1vw;
+        margin-top: -300px;
+        width: 100%;
+        height: 250px;;
     }
 
     .section-map--area{
