@@ -639,9 +639,12 @@ header {
 .video{
     justify-content: center;
     display: flex;   
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
 }
 
-.video iframe{
+.video video{
     object-position: center;
     width:600px;
     height:400px;
