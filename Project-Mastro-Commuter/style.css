@@ -648,6 +648,7 @@ header {
     object-position: center;
     width:600px;
     height:400px;
+    max-width: 80%;
 }
 
 /* SLIDER 2 /////////////////////// */
